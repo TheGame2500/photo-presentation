@@ -1,0 +1,69 @@
+p,h2,
+.navbar-brand,
+.nav {
+  font-family: quicksand !important;
+}
+
+body{
+  padding-top:50px;
+}
+
+
+
+
+
+.logo {
+  position: absolute;
+  margin-top: -0.3%;
+  margin-left: 46%;
+  margin-right: auto;
+  
+  height: 60px!important;
+  width: auto;
+}
+
+.item{
+  padding: 2px;
+    opacity: 0.3;
+  box-shadow: 0;
+    transition: box-shadow 1s;
+
+    transition: opacity 1s;
+    
+}
+
+.item:hover {
+      box-shadow: 0 0 5px #000000;
+    opacity: 1;
+}
+
+#gallery{
+    margin: 0 auto;
+}
+
+.contact{
+    opacity:0.5;
+    transition: opacity 1s;
+}
+
+.contact:hover{
+    opacity: 1;
+}
+
+.img-responsive {
+    max-height: calc(100vh - 15vh);
+}
+
+.modal {
+    text-align:center;
+}
+.modal-dialog {
+    display: inline-block;
+    width: auto;
+}
+
+
+
+
+
+
